@@ -1,0 +1,30 @@
+
+body {
+	background: orange;
+	font-family: "Courier new", monospace;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	color: #4286f4;
+	text-align: center;
+}
+
+table {
+	color: #4286f4;
+	text-align: center;
+	width: 500px;
+}
+
+p2 {
+	size: 10px;
+}
