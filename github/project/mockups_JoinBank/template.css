@@ -1,0 +1,96 @@
+#grad1{
+  background-image: linear-gradient(to bottom right, orange, red);
+  position: relative;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#success{
+  border-color: green;
+  border-width: 5px;
+  border-style: solid;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#fail{
+  border-color: red;
+  border-width: 5px;
+  border-style: solid;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#h3fail{
+  color: red;
+}
+
+p,h3.fail{
+  padding: 20px;
+}
+
+p,h3.success{
+  padding: 20px;
+}
+
+#h3success{
+  color: green;
+}
+
+.row{
+  padding-bottom: 5px;
+}
+
+.button-size{
+  width:inherit;
+}
+
+table{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1{
+  padding: 10px;
+  text-align: center;
+  color: black;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-color: black;
+  border-width: 5px;
+}
+
+h2{
+  padding: 10px;
+  border-style: solid;
+  text-align: center;
+  border-width: 1px;
+  margin: 5px;
+}
+
+h3{
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+td{
+  padding-left: 10px;
+}
+
+#submit{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: black;
+  padding: 10px;
+  color: orange;
+  font-size: 25px;
+}
+
+form{
+  align-items: center;
+}

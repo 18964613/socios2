@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="template.css">
+  </head>
+  <body >
+
+    <div class ="container-fluid" id="grad1" >
+      <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-6">
+          <img src="SunLogo1.png" />
+        </div>
+    </div>
+    <div class="heading" id="h1">
+      <h1>REGISTRATION</h1>
+    </div>
+    <form action="/action_page.php">
+      <table class="register">
+        <tr>
+          <th><h2>Personal Information</h2></th>
+        </tr>
+        <tr>
+          <th>Title:</th>
+          <td><select class="drop">
+              <option value="Nothing"></option>
+              <option value="Mr">Mr</option>
+              <option value="Mrs">Mrs</option>
+              <option value="Miss">Miss</option>
+            </select></td>
+        </tr>
+        <tr>
+          <th>First Name:</th>
+          <td><input type="text" name="fname"></br></td>
+        </tr>
+        <tr>
+          <th>Surname:</th>
+          <td><input type="text" name="sname"></br></td>
+        </tr>
+        <tr>
+          <th>Email Address:</th>
+          <td><input type="email" name="email"></br></td>
+        </tr>
+        <tr>
+          <th>Gender:</th>
+          <td><input type="radio" name="gender" value="Male">Male</br><input type="radio" name="gender" value="Female">Female</br><input type="radio" name="gender" value="Other">Other</br></td>
+        </tr>
+        <tr>
+          <th>Nationality:</th>
+          <td><select class="drop">
+              <option value="nothing"></option>
+              <option value="ZA">South-African</option>
+              <option value="other">Other</option>
+            </select></td>
+        </tr>
+        <tr>
+          <th>If Other Nationality, please specify:</th>
+          <td><input type="text" name="nationality"></br></td>
+        </tr>
+        <tr>
+          <th>South-African Identity Number:</th>
+          <td><input type="number" name="idnum"></br></td>
+        </tr>
+        <tr>
+          <th>Passport number if you are not South-African:</th>
+          <td><input type="number" name="idnum"></br></td>
+        </tr>
+        <tr>
+          <th>Address:</th>
+          <td><input type="Address" name="Address"></br></td>
+        </tr>
+        <tr>
+          <th>Telephone Number:</th>
+          <td><input type="tel" name="telnum"></br></td>
+        </tr>
+        <tr>
+          <th>Date Of Birth:</th>
+          <td><input type="date" name="DOB"></br></td>
+        </tr>
+        <tr>
+          <th>Occupation:</th>
+          <td><input type="text" name="occupation"></td>
+        </tr>
+        <tr>
+          <th>Insert copy of ID/Passport:</th>
+          <td><input type="file" name="ID"></br></td>
+        </tr>
+        <tr>
+          <th>Insert proof of address:</th>
+          <td><input type="file" name="proof"></br></td>
+        </tr>
+        <tr>
+          <th><h2>Account Specifications</h2></th>
+        </tr>
+        <tr>
+          <th>Account Type:</th>
+          <td><select class="drop">
+              <option value="nothing"></option>
+              <option value="Personal">Personal</option>
+              <option value="Business">Business</option>
+            </select></td>
+        </tr>
+        <tr>
+          <th>Account Use:</th>
+          <td><select class="drop">
+              <option value="nothing"></option>
+              <option value="Savings Account">Savings Account</option>
+              <option value="Credit Account">Credit Account</option>
+              <option value="Investment Account">Investment Account</option>
+              <option value="Check Account">Check Account</option>
+            </select></td>
+        </tr>
+        <tr>
+          <th><h2>Business Account Details</h2></th>
+        </tr>
+        <tr>
+          <td><p>(Only fill in this option if you have specified "Business" at account type.)</p></td>
+        </tr>
+        <tr>
+          <th>Registered Business Name:</th>
+          <td><input type="text" name="bname"></br></td>
+        </tr>
+        <tr>
+          <th>Business Telephone Number:</th>
+          <td><input type="tel" name="btelnum"></br></td>
+        </tr>
+        <tr>
+          <th>Insert proof of income:</th>
+          <td><input type="file" name="income"></br></td>
+        </tr>
+        <tr>
+          <th><button class="submit" type="button">Submit Application</button></th>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
