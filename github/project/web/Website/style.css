@@ -1,0 +1,467 @@
+#aboutdiv {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: black;
+  opacity: 0.8;
+  border-color: rgb(255, 133, 51);
+  border-radius: 20px;
+  border-style: solid;
+  border-width:3px;
+}
+
+#aboutus {
+  text-align: center;
+  border-top-color: white;
+  border-top-style: solid;
+  border-top-width: 5px;
+}
+
+#accordion {
+  opacity: 0.8;
+  text-align: left;
+  padding: 30px;
+}
+
+#accordion a {
+  color: white;
+}
+
+#apl {
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+  color: black;
+  border-radius: 20px;
+}
+
+#apl:hover {
+  color: rgb(255, 133, 51);
+  border-color: rgb(255, 133, 51);
+  border-radius: 20px;
+}
+
+.app {
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.appdownload {
+  max-width: 300px;
+  max-height: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#aboutus1 {
+  padding-bottom: 20px;
+  border-top-color: white;
+  border-top-style: solid;
+  border-top-width: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#banktype {
+  border-width: 3px;
+  border-style: solid;
+  background-color: black;
+  border-radius: 20px;
+  border-color: rgb(255, 133, 51);
+  opacity: 0.9;
+  padding-top: 2%;
+}
+
+#banktype h3 {
+  padding-bottom: 4%;
+  color: white;
+}
+
+#banktype li {
+  text-align: left;
+  color: white;
+}
+
+#begin {
+  background-image: url("stb.jpg");
+}
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+#cardbody {
+  background-color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#cardbody:hover {
+  background-color: rgb(255, 133, 51);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card-body {
+  background-color: black;
+  color: white;
+}
+
+.card-header {
+  background-color: black;
+  border-bottom-color: rgb(255, 133, 51);
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+.card-header:hover {
+  background-color: rgb(255, 133, 51);
+}
+
+.card-img-top {
+  max-height: 450px;
+}
+
+.card img {
+  border-radius: 20px;
+  max-height: 400px;
+}
+
+#cardteam {
+  text-align: center;
+  border-color: rgb(255, 133, 51);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#contact {
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#costs {
+  border-color: rgb(255, 133, 51);
+  border-width: 3px;
+  border-style: solid;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+#costtable {
+  text-align: center;
+  padding-left: 15px;
+  padding: 10px;
+}
+
+#costtable th {
+  text-align: center;
+}
+
+#costtable td {
+  border-bottom-color: rgb(255, 133, 51);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+
+}
+
+#costs h3 {
+  padding-top: 2%;
+}
+
+#cont td {
+  padding: 20px;
+}
+
+#contactnav {
+  text-align: center;
+  padding: 10px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+#footer {
+  background-color: rgb(255, 133, 51);
+}
+
+#hello {
+  padding: 20px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  background-color: white;
+  margin-top: 20px;
+  color: black;
+  opacity: 0.8;
+  border-color: rgb(255, 133, 51);
+  border-radius: 20px;
+  border-style: solid;
+  border-width:3px;
+}
+
+#hello:hover {
+  border-color: black;
+  border-radius: 20px;
+  border-style: solid;
+  border-width:3px;
+}
+
+#helph1 {
+  color: rgb(255, 133, 51);
+  font-weight: bold;
+}
+
+#helpp {
+  border-bottom-color: rgb(255, 133, 51);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  text-align: center;
+  padding: 10px;
+}
+
+#homelogo {
+  max-width: 35px;
+}
+
+img {
+  opacity: 1;
+}
+
+#intimg {
+  max-width: 100px;
+}
+
+.logos {
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#main {
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: white;
+}
+
+#middel {
+  background-color: rgb(230, 230, 230);
+  border-radius: 20px;
+  opacity: 1;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-color: black;
+  border-width: 6px;
+  border-style: solid;
+}
+
+.modal-header {
+  background-color: rgb(0, 204, 0);
+}
+
+#moinfo {
+  background-color: black;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+#moinfo:hover {
+  color: rgb(255, 133, 51);
+  border-color: rgb(255, 133, 51);
+  border-radius: 20px;
+}
+
+#myModal {
+  color: black;
+}
+
+#nav1 {
+  color: white;
+  text-align: center;
+}
+
+#navs a:hover {
+  color: rgb(255, 163, 102);
+}
+
+.nav-link {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#navs {
+  opacity: 0.8;
+  background-color: black;
+  border-color: rgb(255, 163, 102);
+  border-width: 3px;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#navlogo {
+  max-width: 100px;
+}
+
+#ourteam {
+  color: rgb(255, 133, 51);
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+#send {
+  margin: 20px;
+  background-color: black;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+#send:hover {
+  color: rgb(255, 133, 51);
+  border-color: rgb(255, 133, 51);
+  border-radius: 20px;
+}
+
+#students {
+  border-color: white;
+  border-style: solid;
+  border-width:3px;
+  padding: 20px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  background-color: black;
+  margin-top: 20px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+#students:hover {
+  border-color: rgb(255, 133, 51);
+  border-radius: 20px;
+}
+
+#studentbtn {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#studentbtn:hover {
+  color: rgb(255, 133, 51);
+  border-color: rgb(255, 133, 51);
+}
+
+#studentpng {
+  max-width: 50px;
+}
+
+#studiv1 {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  margin-top: 20px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 20px;
+  border-color: rgb(255, 133, 51);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#studiv2 {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  margin-top: 20px;
+  color: black;
+  opacity: 0.8;
+  border-radius: 20px;
+  border-color: rgb(255, 133, 51);
+  border-width: 3px;
+  border-style: solid;
+}
+
+#studiv3 {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 133, 51);
+  margin-top: 20px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 20px;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+}
+
+#stuhelp {
+  text-align: center;
+}
+
+#studenh1 {
+  color: rgb(255, 133, 51);
+  font-weight: bold;
+  padding: 20px;
+}
+
+.stulogos {
+  max-width: 100px;
+}
+
+.stutable {
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+table {
+  border-color: black;
+  margin-top: 10%;
+}
+
+#teamdiv {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+#teamcon {
+  background-color: black;
+}
+
+#teams {
+  text-align: center;
+}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Bank Of The Sun</title>
+  <link rel="icon" type="image/png" href="images/SunLogo1.png" style="max-width: 5px;"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Own CSS file -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- Google Maps Script -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="jumbotron text-center" id="begin" style="margin-bottom:0">
+    <img src="images/SunLogo1.png"/>
+  </div>
+  <div class="container-fluid" id=aboutus1 style="background-image: url(street.jpg);">
+    <nav class="navbar navbar-expand-sm" id="nav1">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div class="container-fluid" id="navs">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="navbar-header">
+                <a class="navbar-header" href="p3.html"><img src="images/home.png" id="homelogo"/></a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <a class="nav-link" href="banking.html">BANKING</a>
+            </div>
+            <div class="col-sm-3">
+              <a class="nav-link" href="team.html">ABOUT US</a>
+            </div>
+            <div class="col-sm-3">
+              <a class="nav-link" href="help.html">HELP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="row" id="bankingdiv">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6">
+        <h1 id="studenh1">Banking</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-2" id="banktype">
+        <h3>Account Types</h3>
+        <ul>
+          <li>Check Account</li>
+          <li>Savings Account</li>
+          <li>Investment Account</li>
+          <li>Credit Account</li>
+        </ul>
+      </div>
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-3" id="costs">
+        <h3>Banking Costs</h3>
+        <p>Subject to all account types.</P>
+        <table id="costtable">
+          <tr>
+            <th>Per</th>
+            <th>Rand</th>
+          </tr>
+          <tr>
+            <td>SMS</td>
+            <td>0.40</td>
+          </tr>
+          <tr>
+            <td>Withdraw</td>
+            <td>0.3 / 100</td>
+          </tr>
+          <tr>
+            <td>Withdraw From Other Bank</td>
+            <td>5.60</td>
+          </tr>
+          <tr>
+            <td>International Payment</td>
+            <td>26.85</td>
+          </tr>
+          <tr>
+            <td>Payment Within Bank</td>
+            <td>0.00</td>
+          </tr>
+          <tr>
+            <td>Payment With Other Bank</td>
+            <td>1.90</td>
+          </tr>
+          <tr>
+            <td>Card Swipe</td>
+            <td>0.30</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-4" id="costs">
+        <h3>Fixed Savings Interest Rates</h3>
+        <p>Subject to all account types.</P>
+        <table id="costtable">
+          <tr>
+            <th>Amount (R)</th>
+            <th>Interest (%)</th>
+            <th>Duration (months)</th>
+          </tr>
+          <tr>
+            <td>500 - 3 000</td>
+            <td>0.7</td>
+            <td>6-24</td>
+          </tr>
+          <tr>
+            <td>500 - 3 000</td>
+            <td>1</td>
+            <td>24 <</td>
+          </tr>
+          <tr>
+            <td>3 000 - 10 000</td>
+            <td>1</td>
+            <td>6-24</td>
+          </tr>
+          <tr>
+            <td>3 000 - 15 000</td>
+            <td>1.4</td>
+            <td>24 <</td>
+          </tr>
+          <tr>
+            <td>15 000 - 35 000</td>
+            <td>2</td>
+            <td>24 <</td>
+          </tr>
+          <tr>
+            <td>35 000 <</td>
+            <td>5</td>
+            <td>24 <</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="margin-top:30px" id="main">
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6" style="margin-left: 10px;">
+        <h3>Download the App!</h3>
+        <div class="app">
+          <a href="https://play.google.com/store" class="appdownload"><img src="images/play.png" class="appdownload"/></a>
+          <a href="https://itunes.apple.com/us/app/apple-store/id375380948?mt=8" class="appdownload"><img src="images/apple.png" class="appdownload"/></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="contact">
+    <nav id="contactnav">
+      <h2 class="contactus">Contact Us</h2>
+    </nav>
+    <div class="row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-4">
+        <label for="name" style="padding-top:30px;">Name</label>
+        <input type="text" class="form-control form-control" id="name" required>
+        <label for="email" style="padding-top:10px;">Email Address</label>
+        <input type="email" class="form-control form-control" id="email" required>
+        <label for="message" style="padding-top:10px;">Message</label>
+        <textarea rows="5" class="form-control form-control" id="message" required></textarea>
+        <button type="submit" data-toggle="modal" data-target="#myModal" id="send">Send</button>
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Sent!</h4>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+                Thank you for your feedback. We will get back to you as soon as possible!
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-4">
+        <table id="cont">
+          <tr>
+            <td><img src="images/mail.png" class="logos"/></td>
+            <td>bank@sun.co.za</td>
+          </tr>
+          <tr>
+            <td><img src="images/phone.png" class="logos"/></td>
+            <td>(+27) 21 856 1234</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.google.co.za/maps/place/Eikestad+Mall/@-33.9354366,18.8578045,17z/data=!3m1!4b1!4m5!3m4!1s0x1dcdb25e63fa60fd:0xbfd13b7407024931!8m2!3d-33.9354411!4d18.8599932"><img src="images/loc.png" class="logos"/></a></td>
+            <td><address>
+              Shop 109A<br>
+              Eikestad mall<br>
+              Andringa St<br>
+              Stellenbosch Central<br>
+              Stellenbosch<br>
+              7600<br>
+            </address></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron text-center" style="margin-bottom:0;" id="footer">
+    <a href="https://www.facebook.com/"><img src="images/facebook.png" class="logos"/></a>
+    <a href="https://www.instagram.com/"><img src="images/instagram.png" class="logos"/></a>
+    <a href="https://twitter.com/"><img src="images/twitter.png" class="logos"/></a>
+  </div>
+
+  <script>
+  $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();
+  });
+  </script>
+</body>
+</html>
